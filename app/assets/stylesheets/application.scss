@@ -22,31 +22,43 @@
 
 
  .jumbotron {
-   background-image:url('https://ws3.sinaimg.cn/large/006tKfTcgy1fi5ffchjtxj308l04jgll.jpg');
+   background-image:url('https://i.ndtvimg.com/i/2017-04/student-using-computer_650x400_41491999398.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 110px;
  }
 
+ .jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
  .title {
    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-   text-align: center;
+   text-align: left;
    margin-top: 200px;
    margin-bottom: 80px;
+   color: #D98F4F;
  }
 
  .slogan {
    margin-top: 10px;
-   margin-bottom: 50px;
-   text-align: center;
-   color: white;
+   margin-bottom: 80px;
+   text-align: left;
+   color: black;
    top: 12px;
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 2;
  }
 
  .lead {
-   margin-bottom: 60px;
-   text-align: center;
+   margin-bottom: 30px;
+   margin-left: 100px;
+   text-align: left;
    color: white;
+   line-height: 1.4;
  }
 
  .caption {
@@ -56,9 +68,13 @@
  }
 
  .thumbnail {
-     border: 0 none;
+     border: 0 solid #ddd ;
      box-shadow: none;
      margin-top: 60px;
+ }
+
+ .thumbnail img {
+     border: 0 solid #ddd ;
  }
 
  .custab{
@@ -74,4 +90,8 @@
 .custab:hover{
   box-shadow: 3px 3px 0px transparent;
   transition: 0.5s;
+}
+
+.navbar-default {
+  font-weight: 600
 }
